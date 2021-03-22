@@ -1,0 +1,34 @@
+.amt {
+  background-color: #fff;
+  border: 0.0625rem solid #dadce0;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.amt__top {
+  display: flex;
+  align-items: center;
+}
+.amt__top > * {
+  margin-left: 10px;
+}
+.amt__Cnt {
+  padding: 0.5rem 0;
+}
+.amt__txt {
+  margin: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.amt__img {
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.amt__content {
+    margin: 10px 15px;
+    font-size: 14px;
+    text-decoration: underline;
+}
