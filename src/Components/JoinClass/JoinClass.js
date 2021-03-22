@@ -3,7 +3,7 @@ import { Close } from '@material-ui/icons'
 import React from 'react'
 import { useState } from 'react'
 import { useLocalContext } from '../../context/context'
-import db from '../../lib/firebase'
+import db, { auth } from '../../lib/firebase'
 
 import './JoinClass.css'
 
@@ -56,6 +56,10 @@ const JoinClass = () => {
         }
     }
 
+    const logout = () => {
+        auth.signOut()
+    }
+
     return (
         <div>
             <Dialog
@@ -93,7 +97,7 @@ const JoinClass = () => {
                                 </div>
                             </div>
 
-                            <Button variant='outlined' color='primary'>
+                            <Button variant='outlined' color='primary' onClick={logout}>
                                 Logout
                             </Button>
                         </div>
