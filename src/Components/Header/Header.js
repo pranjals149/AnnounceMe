@@ -43,7 +43,7 @@ const Header = ({ children }) => {
                 <Toolbar className={classes.toolbar}>
                     <div className={classes.headerWrapper}>
                         {children}
-                        <img className={classes.header__image} src="https://image.freepik.com/free-vector/smiling-man-talking-loudspeaker-monitor-social-media-computer-online-flat-vector-illustration-communication-digital-technology_74855-13238.jpg" alt="" />
+                        <img className={classes.header__image} src="https://cdn.pixabay.com/photo/2016/06/15/16/16/man-1459246_960_720.png" alt="" />
                         <Typography variant='h6' className={classes.title} onClick={() => history.push('/')}>
                             ANNOUNCEME
                         </Typography>

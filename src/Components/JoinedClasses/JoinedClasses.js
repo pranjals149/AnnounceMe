@@ -20,7 +20,7 @@ const JoinedClasses = ({ classData }) => {
                         <p className="joined__owner">{classData.owner}</p>
                     </div>
                 </div>
-                <Avatar className='joined__avatar' src="https://image.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg" />
+                <Avatar className='joined__avatar' src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png" />
             </div>
 
             <div className="joined__bottom">

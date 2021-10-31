@@ -10,7 +10,7 @@ const Login = () => {
 
     return (
         <div className='login'>
-            <img className='login__logo' src="https://image.freepik.com/free-vector/smiling-man-talking-loudspeaker-monitor-social-media-computer-online-flat-vector-illustration-communication-digital-technology_74855-13238.jpg" alt="" />
+            <img className='login__logo' src="https://cdn.pixabay.com/photo/2016/10/30/21/56/book-1784458_960_720.png" alt="" />
 
             <Button className='login__button' variant="contained" color="default" onClick={() => login()}>
                 Login

@@ -33,7 +33,7 @@ const Announcement = ({ classData }) => {
                         {console.log(item.timstamp)}
                         <div className="amt__Cnt">
                             <div className="amt__top">
-                                <Avatar src="https://image.freepik.com/free-vector/public-approval-concept-with-character_23-2148395692.jpg" />
+                                <Avatar src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317_960_720.png" />
 
                                 <div style={{
                                     fontSize: "15px",
